@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <title>お手伝い帳 ポイント推移</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <script type="text/javascript" src="https://sdk.amazonaws.com/js/aws-sdk-2.315.0.min.js"></script>
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>
+
+    <style>
+        *{
+            font-family:Arial, Helvetica, sans-serif;
+        }
+        #point{
+            font-size:150%;
+        }
+        #point_total{
+            color:#53B535;
+            font-size:110%;
+            font-weight:900;
+            margin-left:15px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="point">ポイント残高:<span id="point_total">0</span></p>
+    <canvas id="point_chart" width="300" height="300"></canvas>
+    <script type="text/javascript" src="main.js?78324023433282" charset="UTF-8"></script>
+</body>
+</html>
